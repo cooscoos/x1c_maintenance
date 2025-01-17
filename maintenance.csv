@@ -1,4 +1,4 @@
-﻿Do every (non-ABS),Do every (ABS),Printer Part,Maintenance,Link,Freq (non ABS),Freq (ABS)
+﻿Do every (non-ABS),Do every (ABS),Printer Part,Maintenance,Link,Freq (non-ABS),Freq (ABS)
 Before print,Before print,Nozzle wiper,"Inspect, clean. Replace if damaged.",https://wiki.bambulab.com/en/x1/maintenance/basic-maintenance#nozzle-wiper,0,0
 1 week,1 week,Part cooling fans,"Inspect, clean debris with compressed air",https://wiki.bambulab.com/en/x1/maintenance/basic-maintenance#part-cooling-fans,1,1
 1 week,1 week,Enclosure,Vacuum debris,,1,1

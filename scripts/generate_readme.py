@@ -8,6 +8,9 @@ CSV_FILE = Path.cwd() / 'maintenance.csv'
 README_FILE = Path.cwd() / 'README.md'
 HEADER_FILE = Path.cwd() / 'scripts' / 'header.md'
 
+# Column to sort the csv by before converting to md table
+SORT_BY = 'Freq (non-ABS)'
+
 
 def csv_to_markdown(csv_path: Path) -> str:
     """Converts a csv to a markdown table using pandas."""
@@ -22,6 +25,9 @@ def csv_to_markdown(csv_path: Path) -> str:
 
     # Link column not needed in markdown table
     df = df.drop(columns=['Link'])
+
+    # Sort the DataFrame by 'Freq (non-ABS)' column
+    df = df.sort_values(by=SORT_BY, ascending=True)
 
     # Convert DataFrame to Markdown table
     markdown = df.to_markdown(index=False)
