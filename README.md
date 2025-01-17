@@ -4,6 +4,8 @@ The table below lists how often maintenance actions should be done when printing
 
 The table is sorted by `Priority (non-ABS)`, but a `Priority (ABS)` column is provided to sort maintenance actions by how frequently they should be done for ABS printing.
 
+See `maintenance.csv` for a csv version of this table.
+
 
 | Do every (non-ABS)                           | Do every (ABS)                               | Printer Part                               | Maintenance                                                                                                                                                    |   Freq (non-ABS) |   Freq (ABS) |
 |:---------------------------------------------|:---------------------------------------------|:-------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|-------------:|
