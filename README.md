@@ -1,11 +1,12 @@
 # Maintenance checklist for X1/X1C printer
 
-The table below lists how often maintenance actions should be done when printing with non-ABS or ABS filaments.
+Maintenance checklist for an X1 or X1C 3D printer. The table lists how often maintenance actions should be done when printing with non-ABS or ABS filaments.
 
-The table is sorted by `Priority (non-ABS)`, but a `Priority (ABS)` column is provided to sort maintenance actions by how frequently they should be done for ABS printing.
+- The table below lists is sorted by column `Priority (non-ABS)`.
+- A `Priority (ABS)` column is provided to sort maintenance actions by how frequently they should be done for ABS printing.
 
 
-| Do every (non-ABS)                           | Do every (ABS)                               | Printer Part                               | Maintenance                                                                                                                                                    |   Freq (non-ABS) |   Freq (ABS) |
+| Do every (non-ABS)                           | Do every (ABS)                               | Printer Part                               | Maintenance                                                                                                                                                    |   Freq (non ABS) |   Freq (ABS) |
 |:---------------------------------------------|:---------------------------------------------|:-------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------:|-------------:|
 | Before print                                 | Before print                                 | Nozzle wiper                               | [Inspect, clean. Replace if damaged.](https://wiki.bambulab.com/en/x1/maintenance/basic-maintenance#nozzle-wiper)                                              |                0 |            0 |
 | 1 week                                       | 1 week                                       | Part cooling fans                          | [Inspect, clean debris with compressed air](https://wiki.bambulab.com/en/x1/maintenance/basic-maintenance#part-cooling-fans)                                   |                1 |            1 |
