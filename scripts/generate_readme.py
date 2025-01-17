@@ -16,10 +16,10 @@ def csv_to_markdown(csv_path: Path) -> str:
     """Converts a csv to a markdown table using pandas."""
     df = pd.read_csv(csv_path)
 
-    # Create a new column with markdown-formatted links
-    df['Maintenance'] = df.apply(
-        lambda row: f"[{row['Maintenance']}]({row['Link']})"
-            if pd.notna(row['Link']) else row['Maintenance'],
+    # Create a new column with markdown-formatted links for Printer part
+    df['Printer part'] = df.apply(
+        lambda row: f"[{row['Printer part']}]({row['Link']})"
+            if pd.notna(row['Link']) else row['Printer part'],
             axis=1
     )
 
@@ -36,8 +36,7 @@ def csv_to_markdown(csv_path: Path) -> str:
 
 
 def main():
-    """Generate README.md from csv file."""
-    # Read header text from file
+    """Generate README.md from a csv file and header.md"""
     with open(HEADER_FILE, 'r', encoding='utf-8') as f:
         header_text = f.read()
 
